@@ -1,0 +1,45 @@
+.gallery
+{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  background-image: url('../images/fondo.png');
+  background-size: 300px;
+
+  border-top: 5px solid;
+  border-color: #BCBCBC;
+}
+
+.gallery img
+{
+  margin: 30px;
+
+  width: 500px;
+  height: 300px;
+
+  border: 5px solid;
+  border-radius: 20px;
+  border-color: #BCBCBC;
+
+  box-shadow: 10px 10px #EAEAEA;
+}
+
+.paragraph
+{
+  margin: 40px 500px;
+
+  font-size: 80px;
+  color: blue;
+
+  display: flex;
+  justify-content: center;
+
+  border: 5px solid;
+  border-radius: 10px;
+  border-color: black;
+}

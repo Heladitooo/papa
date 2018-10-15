@@ -1,0 +1,67 @@
+header
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  height:  60px;
+
+  border-bottom: 2px solid;
+  border-color: #BCBCBC;
+
+}
+
+header img
+{
+  width: 70px;
+}
+
+header nav
+{
+  display: flex;
+  align-items: center;
+}
+
+header li
+{
+  display: flex;
+  
+  list-style: none;
+
+  margin-right: 50px;
+}
+
+header a
+{
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+  text-decoration: none;
+
+  color: black;
+}
+
+
+footer
+{
+  display: flex;
+  justify-content: space-between;
+
+  height:  70px;
+
+  background-color: black;
+  color: white;
+
+  font-size: 20px;
+}
+
+footer img
+{
+  width: 80px;
+}
+
+footer h6
+{
+  margin-right: 50px;
+}

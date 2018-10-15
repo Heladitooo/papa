@@ -1,0 +1,68 @@
+body
+{
+  font-family: 'Kodchasan', sans-serif;
+  margin: 0px;
+}
+
+.hero
+{
+  font-size: 50px;
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  border-bottom: 1px solid;
+  border-color: black;
+
+  background-image: url('../images/fondo.png');
+  background-size: 100px;
+}
+
+.hero h1
+{
+  display: flex;
+  align-items: center;
+  width:900px;
+  flex-shrink: 0;
+
+}
+
+.hero img
+{
+   width: 300px;
+   height: 500px;
+}
+
+
+.inspirador
+{
+  font-size: 40px;
+  display: flex;
+
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px #EAEAEA;
+
+  margin: 100px 100px;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inspirador img
+{
+  margin: 30px 0;
+
+  width: 500px;
+  height: 300px;
+
+  border: 10px solid;
+  border-radius: 50px;
+  border-color: white;
+}
+
+.inspirador strong
+{
+  color: blue;
+}

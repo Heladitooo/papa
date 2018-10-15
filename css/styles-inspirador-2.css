@@ -1,0 +1,32 @@
+.inspirador-2
+{
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px #EAEAEA;
+
+  margin: 100px 100px;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inspirador-2 img
+{
+  margin: 30px 0;
+
+  width: 500px;
+  height: 300px;
+
+  border: 10px solid;
+  border-radius: 50px;
+  border-color: white;
+}
+
+.inspirador-2 strong
+{
+  color: blue;
+}
